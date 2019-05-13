@@ -12,6 +12,11 @@ Repo for the CMPE-282 Final Project
 
 **ARCHITECTURE DIAGRAM**
 
+![arc1](https://user-images.githubusercontent.com/42689991/57660966-c1029d00-759d-11e9-9b77-bb6aea731e4e.png)
+
+
+![arc2](https://user-images.githubusercontent.com/42689991/57660967-c19b3380-759d-11e9-9426-50b2a44d1c7d.png)
+
 
 **TECHNOLOGIES USED**
 
