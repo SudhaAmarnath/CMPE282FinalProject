@@ -58,7 +58,12 @@ One-Click IoT device enhances the user experience in table reservation which giv
     - Code Build: Generating the build output. 
     - Code Commit: This is used as the version control and code repository (code is also uploaded to the GitHub) 
     - Code Deploy: Deploys the code to the server.
-  
+    
+**Infrastructure as a Service (IaaS)**
+
+**AWS Cloud Formation**
+    An Application stack has been created which consists of EC2 instance, RDS for MySQL, Security groups and continous integration pipeline. Application then be containerized to run on EC2 created by the cloud formation script.
+    
 ### Advantages of using Cloud Services  
   
 **High Availability**
