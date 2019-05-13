@@ -1,6 +1,6 @@
 .login-container {
   text-align: center;
-  margin-top:50px;
+  margin-top:150px;
 }
 input {
   margin-top:20px;
@@ -19,12 +19,12 @@ input:focus {
 	border-color:dodgerBlue;
 }
 button {
-	padding:8px;
+	padding:12px;
 	width:60%;
 	background-color:deepskyblue;
 	color:white;
 	border-radius:4px;
-	margin-top:20px;
+	margin-top:30px;
 }
 .split {
   height: 100%;
@@ -74,7 +74,7 @@ ul {
 
 li {
   float: right;
-  margin-right:125px;
+  margin-right:150px;
 }
 
 li a {
@@ -86,7 +86,8 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  text-decoration: none;
+  color: #428bca;
   cursor:pointer;
 }
 	

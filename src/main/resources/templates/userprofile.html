@@ -52,6 +52,34 @@
 	margin-left: 200px;
 	letter-spacing: 2px;
 }
+#list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+.navlist {
+  float: right;
+  margin-right:150px;
+}
+
+.navheader {
+  display: block;
+  color: grey;
+  border: none;
+  background: none;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navheader:hover {
+	
+  cursor:pointer;
+  text-decoration: none;
+}
 </style>
 
 <script>
@@ -82,17 +110,13 @@
 			</li>
 		</ul>
 	</nav> -->
-	<div style="position: relative;">
-		<div style="position: absolute; top: 0; right: 0;">
-			<p>
-				<input type="button" onclick="location.href='/logout'"
-					value="logout">
-			</p>
-		</div>
-	</div>
+	<ul id="list">
+		<li class="navlist"><a class="navheader" onclick="location.href='/logout'">Logout</a></li>
+		<li class="navlist"><a class="navheader" onclick="location.href='/restaurant'">Home</a></li>
+	</ul>
 	<div>
 		<p>
-			<a type="button" href="/restaurant">Home</a>
+			
 		</p>
 	</div>
 	<div class="container emp-profile">
