@@ -1,13 +1,14 @@
 # CMPE-282 Final Project - FoodBolt (Team Spartans)
 Repo for the CMPE-282 Final Project
 
-**Overview**
+## Overview
 
-Dining-out in our favorite restaurant with our beloved ones is one of the main recreations for many people. In order to spend some quality time with our family, friends or business partners during dining, it is necessary to be sure about the slot at the restaurant for the number of people to dine in. There are very minimal online services which offer table booking for multiple restaurants around the locality. Food Bolt application is a table reservation platform which provides seamless access for both users and restaurant owners to reserve tables. 
+   Dining-out in our favorite restaurant with our beloved ones is one of the main recreations for many people. In order to spend some quality time with our family, friends or business partners during dining, it is necessary to be sure about the slot at the restaurant for the number of people to dine in. There are very minimal online services which offer table booking for multiple restaurants around the locality. Food Bolt application is a table reservation platform which provides seamless access for both users and restaurant owners to reserve tables. 
 
   
 
-One-Click IoT device enhances the user experience in table reservation which gives an edge over our competitors. With extensive use of cloud resource, we have optimized the cost of development and operation without compromising the quality of reservation service. With the optimized cost, we are bringing the IoT device to customers at free of cost and enhancing added value to our service.
+  One-Click IoT device enhances the user experience in table reservation which gives an edge over our competitors. With extensive use of cloud resource, we have optimized the cost of development and operation without compromising the quality of reservation service. With the optimized cost, we are bringing the IoT device to customers at free of cost and enhancing added value to our service.
+
 
 **ARCHITECTURE DIAGRAM**
 
