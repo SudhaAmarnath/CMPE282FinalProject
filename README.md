@@ -90,3 +90,81 @@ The end user can access the application by two roles namely User role and Servic
 **Fault-Tolerant**
 
 A web application consists of three tiers namely web, application, and database. The Web tier to resistant to fault tolerance by the AWS service of Elastic Load Balancing. Since the Load Balancer redirects the web traffic to healthy Amazon EC2 instances for more consistent application performance. The Application tier is resistant to fault tolerance through Auto-Scaling which monitors the application enables scaling of EC2 instances based upon end user’s usage of the application. The Database tier is resistant to fault tolerance by maintaining a standby database in the other zone and a read replica in the primary zone.
+
+##Screenshots - AWS services
+
+#cloud formation stack
+![1](https://user-images.githubusercontent.com/42689991/57642097-62bcc680-756b-11e9-9470-038ea00f408a.PNG)
+
+#cloudwatch logs for cloudformation
+![2](https://user-images.githubusercontent.com/42689991/57642098-63555d00-756b-11e9-906d-049acb71b6fe.PNG)
+
+#ECS cluster for EC2 service
+![3](https://user-images.githubusercontent.com/42689991/57642099-63edf380-756b-11e9-99ef-651a8b537915.PNG)
+
+#ECR docker container repository
+![3a](https://user-images.githubusercontent.com/42689991/57642102-64868a00-756b-11e9-8c23-463070f85ce1.PNG)
+
+#s3 bucket stores master cloudformation template and nested stacks
+![4](https://user-images.githubusercontent.com/42689991/57642150-7bc57780-756b-11e9-887b-ecec6cbc219e.PNG)
+
+#AWS code build for project repo in AWS code commit
+![5](https://user-images.githubusercontent.com/42689991/57642151-7bc57780-756b-11e9-8415-3f6865d777bf.PNG)
+
+#AWS Code commit for project
+![6](https://user-images.githubusercontent.com/42689991/57642152-7c5e0e00-756b-11e9-9ac2-4f780818310c.PNG)
+
+#cloudformation template for ECS cluster
+![9](https://user-images.githubusercontent.com/42689991/57642153-7c5e0e00-756b-11e9-8235-8fdb1d7cc2df.PNG)
+
+#Foodbolt stack resources list
+![10](https://user-images.githubusercontent.com/42689991/57642154-7c5e0e00-756b-11e9-8a4e-6c7c2c730701.PNG)
+
+#EC2 instances deployed from cloudformation through ECR docker image
+![13](https://user-images.githubusercontent.com/42689991/57642156-7cf6a480-756b-11e9-866a-567191d58858.PNG)
+
+#Route 53 domian name for ALB hosted zone
+![14](https://user-images.githubusercontent.com/42689991/57642157-7cf6a480-756b-11e9-9543-d24e1b8901ff.PNG)
+
+#Deployment of Foodbolt Project through CloudFormation
+![14a](https://user-images.githubusercontent.com/42689991/57642158-7d8f3b00-756b-11e9-8cde-fd0b83682886.PNG)
+
+#load balancer
+![15](https://user-images.githubusercontent.com/42689991/57642160-7e27d180-756b-11e9-90b3-9f2b284ff613.PNG)
+
+#Autoscaling group
+![16](https://user-images.githubusercontent.com/42689991/57642162-7e27d180-756b-11e9-8716-b6882ec5d14c.PNG)
+
+#Foodbolt cloudfromation stack
+![17](https://user-images.githubusercontent.com/42689991/57642164-7ec06800-756b-11e9-9452-6fc06192dbac.PNG)
+
+#Nested stack - VPC
+![18](https://user-images.githubusercontent.com/42689991/57642167-7f58fe80-756b-11e9-853c-e666aa6919b8.PNG)
+
+#VPC for foodboltstack
+![18a](https://user-images.githubusercontent.com/42689991/57642168-7f58fe80-756b-11e9-8f88-cc059de6a445.PNG)
+
+#Nested stack - CICD
+![19](https://user-images.githubusercontent.com/42689991/57642169-7ff19500-756b-11e9-84f9-9bde00d05689.PNG)
+
+#Foodboltstack build
+![19a](https://user-images.githubusercontent.com/42689991/57642171-7ff19500-756b-11e9-8e0b-c7da62abedcd.PNG)
+
+#AWS container repository
+![20](https://user-images.githubusercontent.com/42689991/57642173-808a2b80-756b-11e9-91ee-ed015a2c49b9.PNG)
+
+#Docker image build in AWS codebuild
+![21](https://user-images.githubusercontent.com/42689991/57642175-8122c200-756b-11e9-8b8a-55c7b1e4ec20.PNG)
+
+#Nested stack - codebuild
+![22](https://user-images.githubusercontent.com/42689991/57642178-8253ef00-756b-11e9-96d6-9659144f72d0.PNG)
+
+#CICD pipeline form Jenkins build
+![23a](https://user-images.githubusercontent.com/42689991/57642183-82ec8580-756b-11e9-9034-3921a736c32b.PNG)
+
+
+![23b](https://user-images.githubusercontent.com/42689991/57642184-83851c00-756b-11e9-858a-3f4a776065b6.PNG)
+
+#Jenkins Build for Foodbolt project
+![24](https://user-images.githubusercontent.com/42689991/57642186-84b64900-756b-11e9-818c-eee873b6f913.PNG)
+
