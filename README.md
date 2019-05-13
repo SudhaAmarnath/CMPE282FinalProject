@@ -61,26 +61,26 @@ One-Click IoT device enhances the user experience in table reservation which giv
   
 ### Advantages of using Cloud Services  
   
-**High Availability
+**High Availability**
 
-**Cost Optimization
+**Cost Optimization**
 
 With the extensive use of AWS resources, we have optimized the cost in every phase of the development lifecycle. With the pay-as-you-go model, the operational cost has been reduced drastically than the traditional model. With the help of Auto-scaling, we make sure we are utilizing only the resources necessary for the load our application is handling at any point of time with this approach we are reducing the cost further and providing more valuable service to our customers.
 
-**Security
+**Security**
 
 The AWS resources are placed in a Virtual Private Cloud with additional AWS security components like Internet Gateway which allows for the communication of the AWS resources in a subnet to the Internet. The Route table contains the list of inbound and outbound rules to allow communication to specific ports. The EC2 instances are connected to the Security Group with Internet Gateway making it a Subnet whereas the Internet Gateway is not attached to the Security Group of the RDS to make it a Private Subnet.
 
 
-**Disaster Recovery
+**Disaster Recovery**
 
 RDS has been enabled in Multiple Availability Zones in order to make the application highly available and also available during a disaster. In addition to Multi-AZ deployment is enabled, the application archives the backup for one week. Also, frequent RDS snapshots are taken to rebuild in case of any failures.
 
 
-**Role Based Access
+**Role Based Access**
 
 The end user can access the application by two roles namely User role and Service Provider role. A user is given the access to view the list of restaurants registered under the application, book the desired restaurant, cancel the reservation and view the history of booking made under the user profile. The Service Provider has registered the restaurant under the application, cancel the reservations made in the restaurant and view the panel of bookings made in the restaurant.
 
-**Fault-Tolerant
+**Fault-Tolerant**
 
 A web application consists of three tiers namely web, application, and database. The Web tier to resistant to fault tolerance by the AWS service of Elastic Load Balancing. Since the Load Balancer redirects the web traffic to healthy Amazon EC2 instances for more consistent application performance. The Application tier is resistant to fault tolerance through Auto-Scaling which monitors the application enables scaling of EC2 instances based upon end user’s usage of the application. The Database tier is resistant to fault tolerance by maintaining a standby database in the other zone and a read replica in the primary zone.
